@@ -1,0 +1,44 @@
+#cel {
+  border-collapse: collapse;
+}
+.td_15{
+  background-color: #F5F5F5;
+  width: 15%;
+  text-align:center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.td_49{
+  background-color: #F5F5F5;
+  width: 49%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.input_txt{
+  font-size: 20px;
+  background-color: #F5F5F5;
+  height: 48px;
+  width: 98%;
+  border: none;
+}
+#tag_td{
+  width: 84%;
+  text-align: center;
+  font-size:25px;
+}
+#tag_name{
+  width: 70%;
+  height: 45px;
+  font-size:15px;
+}
+.td_98{
+  background-color: #F5F5F5;
+  width: 98%;
+  text-align: center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+

@@ -1,0 +1,10 @@
+.question{
+  height: 50px;
+  width: 68%;
+  background-color: #F5F5F5;
+}
+.move{
+  height: 50px;
+  width: 33%;
+  text-align: center;
+}

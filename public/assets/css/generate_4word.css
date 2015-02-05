@@ -1,0 +1,26 @@
+#question{
+  text-align: center;
+}
+.txtbox{
+  height: 50px;
+  width: 90%;
+  font-size: 15pt;
+}
+.tag{
+  width: 90%;
+  font-size: 20pt;
+}
+.tag_in{
+  height: 50px;
+  width: 85%;
+  font-size: 15pt;
+}
+.td_98{
+  background-color: #F5F5F5;
+  width: 98%;
+  text-align:center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+  height:50px;
+}

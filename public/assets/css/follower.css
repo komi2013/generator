@@ -1,0 +1,25 @@
+#cel {
+  border-collapse: collapse;
+}
+.td_15{
+  background-color: #F5F5F5;
+  width: 15%;
+  text-align:center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.u_title{
+  background-color: #F5F5F5;
+  width: 84%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.input_txt{
+  font-size: 20px;
+  background-color: #F5F5F5;
+  height: 48px;
+  width: 98%;
+  border: none;
+}

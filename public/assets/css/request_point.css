@@ -1,0 +1,69 @@
+.move{
+  width: 33%;
+  text-align: center;
+}
+#tag_td{
+  width: 84%;
+  text-align: center;
+  font-size:25px;
+}
+#tag_name{
+  width: 90%;
+  height: 48px;
+  font-size:15px;
+}
+#search{
+  width: 15%;
+}
+#cel {
+  border-collapse: collapse;
+}
+.td_txt{
+  background-color: #F5F5F5;
+  width: 99%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  height: 60px;
+}
+.input_txt{
+  font-size: 20px;
+  background-color: #F5F5F5;
+  height: 48px;
+  width: 70%;
+  border: none;
+}
+.td_84{
+  background-color: #F5F5F5;
+  width: 84%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.td_99{
+  height: 50px;
+  background-color: #DDFFFF;
+  width: 99%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+}
+.td_49{
+  height: 50px;
+  width: 49%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.td_41{
+  height: 50px;
+  background-color: #F5F5F5;
+  width: 41%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+
+

@@ -1,0 +1,46 @@
+#cel {
+  border-collapse: collapse;
+}
+.td_15{
+  background-color: #F5F5F5;
+  width: 15%;
+  text-align:center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.q_title{
+  background-color: #F5F5F5;
+  width: 84%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.input_txt{
+  font-size: 20px;
+  background-color: #F5F5F5;
+  height: 48px;
+  width: 98%;
+  border: none;
+}
+#question{
+  text-align: center;
+}
+#q_txt{
+  height: 90px;
+  width: 90%;
+  font-size: 15pt;
+}
+.choice{
+  height: 50px;
+  width: 90%;
+  font-size: 15pt;
+}
+#imageLoader{
+  opacity: 0;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  z-index: 5;
+}
+

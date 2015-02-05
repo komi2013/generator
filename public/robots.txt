@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://generator-stg.komahana.info/sitemap/index.xml
+Disallow: /*$

@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  font-size: 15pt;
+  //display: none;
+}
+table {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.icon {
+  max-height: 48px;
+  vertical-align: middle;
+}
+#header {
+  height: 50px;
+}
+.edge {
+  width: 25%;
+  text-align: center;
+  background-color: #DDFFFF;
+}
+#center {
+  width: 48%;
+  text-align: center;
+  background-color: #DDFFFF;
+  font-size: 13px;
+}
+#drawer {
+  width: 80%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 10;
+  margin: 0;
+  background-color: white;
+  left: -100%;
+  float: left;
+}
+#drawer td {
+  height: 50px;
+  background-color: #DDFFFF;
+}
+#drawer td#this_page {
+  background-color: #BBFFFF;
+  border-width: 1px 1px;
+  border-color: silver;
+  border-style: solid;
+}
+
+#ad_div {
+  width: 99%;
+  text-align: center;
+}

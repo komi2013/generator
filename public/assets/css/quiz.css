@@ -1,0 +1,95 @@
+#center{
+  font-size: 14px;
+}
+#question{
+  height: 85px;
+  width: 98%;
+}
+.choice{
+  height: 50px;
+  width: 98%;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+#photo{
+  max-height: 300px;
+  max-width: 300px;
+}
+#div_photo{
+  text-align: center;
+  width:99%;
+}
+.num_txt{
+  height: 50px;
+  width: 34%;
+}
+.ans_u_correct{
+  height: 50px;
+  width: 12%;
+  text-align: center;
+  background-color: rgba(0,255,0,0.2);
+}
+.ans_u_incorrect{
+  height: 50px;
+  width: 12%;
+  text-align: center;
+  background-color: rgba(255,0,0,0.2);
+}
+.ans_icon{
+  max-width: 35px;
+  text-align: center;
+}
+#tag {
+  height: 50px;
+}
+#comment {
+  border-collapse: collapse;
+}
+.td_15{
+  background-color: #F5F5F5;
+  width: 15%;
+  text-align: center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.td_84{
+  background-color: #F5F5F5;
+  width: 84%;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+}
+.input_text{
+  height: 45px;
+  width: 90%;
+}
+#big_result{
+  position: relative;
+}
+.big_icon{
+  position: absolute;
+  top: -80px;
+  left: 10px;
+  height: 300px;
+  z-index: 3;
+  opacity: 0.6;
+}
+.td_32{
+  background-color: #F5F5F5;
+  width: 32%;
+  text-align: center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+  height: 50px;
+}
+.td_98{
+  background-color: #DDFFFF;
+  width: 98%;
+  text-align: center;
+  border-width: 1px 0px;
+  border-color: white;
+  border-style: solid;
+  height: 50px;
+}
