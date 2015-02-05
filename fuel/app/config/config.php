@@ -261,7 +261,7 @@ return array(
 
     'gp_id' => '800923078365-a5p8due4faik4ksl5m2ph54l7dkluvsm.apps.googleusercontent.com',
     'gp_secret' => 'WzvyzCfv2S3d0Ze42CuFJHs-',
-    'gp_callback' => 'http://generator-stg.komahana.info/gpcallback',
+    'gp_callback' => 'http://generator-stg.komahana.info/gpcallback/',
     'gp_login' => 'http://generator-stg.komahana.info/gplogin/',
 
     'adm' => array(
