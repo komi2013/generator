@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/assets/img/icon/quiz_generator.png">
     <script src="/third/jquery-2.1.1.min.js"></script>
     <script src="/third/jquery.cookie.js"></script>
-    <?php if(Agent::is_mobiledevice()){ ?>
+    <?php if(Model_Util::is_mobile()){ ?>
     <link rel="stylesheet" type="text/css" href="/assets/css/basic.css?ver=1" />
     <meta name="viewport" content="width=device-width, user-scalable=no" >
     <?php }else{ ?>
