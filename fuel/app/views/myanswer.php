@@ -39,6 +39,7 @@
   <tr><td><a href="/contact/">&nbsp;&nbsp;&nbsp;お問い合わせ</a></td></tr>
   <tr><td><a href="/rule/">&nbsp;&nbsp;&nbsp;使い方と規約</a></td></tr>
 </table>
+<div id="content">
 <table cellspacing="1" boroder="0">
 <tr>
   <td><img src="/assets/img/icon/circle_big.png" class="icon"></td>
@@ -47,7 +48,7 @@
   <td class="num_txt" id="num_answer">0</td>
 </tr>
 </table>
-<div id="content">
+
 <?=View::forge('ad')?>
 
 <table id="cel"></table>

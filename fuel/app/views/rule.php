@@ -40,8 +40,8 @@
 </table>
 <div id="content">
 <table>
-  <tr><td class="td_98"><a href="http://quizgenerator-help.hatenadiary.jp/archive/2015">使い方（動画）作成中</a></td></tr>  
-  <tr><td class="td_98"><a href="http://quizgenerator-help.hatenadiary.jp/archive/2015">使い方（ブログ）</a></td></tr> 
+  <tr><td class="td_98"><a href="https://www.youtube.com/watch?v=ZQlq1a-jPHw" target="_blank">使い方（動画）</a></td></tr>  
+  <tr><td class="td_98"><a href="http://quizgenerator-help.hatenadiary.jp/archive/2015" target="_blank">使い方（ブログ）</a></td></tr> 
 </table>
 <table>
   <tr><td class="td_98_rule">利用規約</td></tr>

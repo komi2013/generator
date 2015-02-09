@@ -82,7 +82,8 @@ $('#delete').click(function(){
         ii++;
       }  
     });
-    localStorage.answer = new_answer;
+    localStorage.answer = JSON.stringify(new_answer);
+    location.href = '';
   }
 });
 

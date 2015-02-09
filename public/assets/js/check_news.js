@@ -28,14 +28,16 @@ function getNews(){
   $.get('/newsshow/','',function(){},"json")
   .always(function(res){
     if(res[0]==1){
-//     $('#news').append(res[1].length);
       $('#news').append(' ('+res[1].length+')');
       $('title').prepend(' ('+res[1].length+')');
       $('#center').prepend(' ('+res[1].length+')');
       if(notify[4] < 3){
-        $('#drawer').css({
-          'left': -1
-        });
+        var agent = navigator.userAgent;
+        if(agent.search(/iPhone/) > -1 || agent.search(/Android/) > -1 || agent.search(/mobile/) > -1){
+          $('#drawer').css({
+            'left': -1
+          });
+        }
         drawerIsOpen = true;
         var limit = 0;
         while(limit < 3){

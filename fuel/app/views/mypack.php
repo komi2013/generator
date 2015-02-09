@@ -47,6 +47,7 @@
   <tr><td><a href="/rule/">&nbsp;&nbsp;&nbsp;使い方と規約</a></td></tr>
 </table>
 <div id="content">
+
 <table><tr><td class="q_title"><input type="text" value="<?=Str::truncate(Security::htmlentities($pack_txt), 30)?>" readonly class="input_txt"></td></tr></table>
 
 <table id="cel">

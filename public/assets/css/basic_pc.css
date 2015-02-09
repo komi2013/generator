@@ -18,6 +18,9 @@ div {
 #content{
   margin-left: 310px;
 }
+#menu{
+  display: none;
+}
 .icon {
   max-height: 48px;
   vertical-align: middle;

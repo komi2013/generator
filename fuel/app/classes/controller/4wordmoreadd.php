@@ -4,14 +4,27 @@ class Controller_4wordmoreadd extends Controller
   public function action_index()
   {
     $res[0] = 2;
+    $usr_id = Model_Cookie::get_usr();
+    $auth = false;
+    foreach (Config::get('my.adm') as $d)
+    {
+      if ($d == $usr_id)
+      {
+        $auth = true;
+      }
+    }
+    if (!$auth AND $_SERVER['REMOTE_ADDR'] != '133.242.146.131')
+    {
+      die(View::forge('404'));
+    }
 
     $arr_post[] = preg_replace('/\W+/u', '_', 'センター英語基本');
     $arr_post[] = preg_replace('/\W+/u', '_', '');
     $arr_post[] = preg_replace('/\W+/u', '_', '');
     
     $arr_word = DB::select()->from('word')
-    ->order_by('quiz', 'asc')->limit(12)
     ->execute()->as_array();
+    //->order_by('quiz', 'asc')->limit(12)
 
     $ii = 1;
     //$arr_word_4 = array();
